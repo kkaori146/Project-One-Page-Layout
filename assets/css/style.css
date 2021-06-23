@@ -1,0 +1,125 @@
+body{
+    margin-left: 291px;
+    margin-right: 291px;
+}
+.btn-toolbar {
+    padding: 20px 210px;
+    background-color: darkblue;
+}
+
+.btn-space{
+    margin-right: 20px;
+    justify-content: center;
+
+}
+.poster {
+    display: inline-block;
+    position: relative;
+}
+#txt1,
+#txt2 {
+    position: absolute;
+    color: #FFF;
+}
+#txt1{
+    top: 150px;
+    margin-left:350px;
+}
+#txt2 {
+    top: 190px;
+    margin-left: 355px;
+}
+#photo--inicial {
+    width: 899px;
+   }
+   .coluna--primeira {
+       padding-top: 30px;
+       display: flex;
+   }
+   .coluna--primeira img{
+       width: 271px;
+       margin-left: 10px;
+       padding: 5px 0px 0px 2px;
+       height: 210px;
+   }
+#parte1,
+#parte2,
+#parte3 {
+    margin-left: 40px;
+ margin-right: 28px;
+
+}
+.coluna--primeira .text-success{
+    color: green;
+    padding-top: 10px;
+    margin-left: 70px;
+    margin-top: -4px;
+}
+.fundo{
+    background-color: lightblue;
+    margin-left: 12px;
+    margin-right: 15px;
+    height: 170px;    
+}
+.verdinho {
+   background-color: green;
+  margin-left: 80px;
+  border-radius: 5px;
+  
+}
+
+.coluna--primeira .text-danger {
+    color: #F00;
+    margin-left: 30px;
+    margin-top: 0px;
+    
+}
+.vermelhinho {
+    background-color: #F00;
+   margin-left: 80px;
+   border-radius: 5px;
+   
+ }
+ .fundo2 {
+    background-color: lightblue;
+    margin-left: 12px;
+    margin-right: 17px;
+    height: 170px;    
+}
+.coluna--primeira .text-danger{
+    color: #F00;
+    padding-top: 10px;
+    margin-left: 70px;
+    margin-top: -4px;
+}
+ 
+.coluna--primeira .text-primary {
+    color: #00F;
+    margin-left: 30px;
+    margin-top: 0px;
+
+}
+.azulzinho {
+    background-color: #00F;
+   margin-left: 80px;
+   border-radius: 5px;
+}
+.fundo3 {
+    background-color: lightblue;
+    margin-left: 12px;
+    margin-right: 17px;
+    height: 170px;    
+}
+.coluna--primeira .text-primary{
+    color: #00F;
+    padding-top: 10px;
+    margin-left: 70px;
+    margin-top: -4px;
+}
+   .coluna--segunda {
+       margin-top: 30px;
+       display: flex;
+   }
+   .coluna--terceira {
+       display: flex;
+   }
