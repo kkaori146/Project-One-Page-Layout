@@ -4,12 +4,16 @@ body{
 }
 .btn-toolbar {
     padding: 20px 210px;
-    background-color: darkblue;
+    background-color:rgb(56, 54, 54);
 }
 
 .btn-space{
     margin-right: 20px;
     justify-content: center;
+    background-color: rgb(56, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+  color: #FFF;
+  border: none;
 
 }
 .poster {
@@ -20,6 +24,7 @@ body{
 #txt2 {
     position: absolute;
     color: #FFF;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 #txt1{
     top: 150px;
@@ -65,6 +70,8 @@ body{
    background-color: green;
   margin-left: 80px;
   border-radius: 5px;
+color: #FFF;
+border: none;
   
 }
 
@@ -78,6 +85,8 @@ body{
     background-color: #F00;
    margin-left: 80px;
    border-radius: 5px;
+   color: #FFF;
+   border: none;
    
  }
  .fundo2 {
@@ -103,6 +112,8 @@ body{
     background-color: #00F;
    margin-left: 80px;
    border-radius: 5px;
+   color: #FFF;
+border: none;
 }
 .fundo3 {
     background-color: lightblue;
@@ -117,9 +128,16 @@ body{
     margin-top: -4px;
 }
    .coluna--segunda {
-       margin-top: 30px;
        display: flex;
+   }    
+   .coluna--segunda .col4 {
+       margin-left: 13px;
+       width: 500px;
    }
+.coluna--segunda .col5 {
+    margin-left: 47px;
+width: 500px;
+}
    .coluna--terceira {
        display: flex;
    }
