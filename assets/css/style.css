@@ -138,6 +138,46 @@ border: none;
     margin-left: 47px;
 width: 500px;
 }
+.fundo4 {
+    background-color: lightblue;
+    margin-left: 0px;
+    margin-right: 20px;
+    height: 160px;    
+    height: 100px;
+    margin-top: -20px;
+}
+.coluna--segunda .text-primary{
+    padding-top: 10px;
+    margin-left: 70px;
+    margin-top: -4px;
+}
+#parte4 {
+   padding-top: 12px;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+.fundo5 {
+    background-color: lightblue;
+    margin-left: 0px;
+    margin-right: 20px;
+    height: 160px;    
+    height: 100px;
+    margin-top: -20px;
+}
+#parte5 {
+    padding-top: 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+.cinzinha {
+    border-radius: 5px;
+    background-color: rgb(184, 182, 179);
+    color: #FFF;
+    border: none;
+    margin-left: 280px;
+  
+}
    .coluna--terceira {
        display: flex;
    }
