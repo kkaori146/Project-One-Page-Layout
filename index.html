@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project One Page Layout</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -70,12 +73,15 @@
     </div>
     </div>
 </div>
+
+
+
 <br/><br/>
 <div class="poster2">
-    <img src="http://lorempixel.com/400/200/nature" />
-    <h1>Our Services</h1> 
+    <img class="second--photo" src="http://lorempixel.com/400/200/nature" />
+    <h1 class="poster2--frase">Our Services</h1> 
 </div>
-
+<br/><br/>
 
 
 
@@ -84,36 +90,69 @@
 <div class="coluna--terceira">
     <div class="col6">
         <img src="http://lorempixel.com/400/200/people" />
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-    
+        <div class="fundo6">
+        <p id="parte6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+    </div>
     </div>
     <div class="col7">
         <img src="http://lorempixel.com/400/200/cats" />
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        <button>Read it</button>
+        <div class="fundo7">
+        <p id="parte7">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <button class="cinzinha2">Read it</button>
     </div>
+</div>
     <div class="col8">
         <img src="http://lorempixel.com/400/200/food" />
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        
+        <div class="fundo8">
+        <p id="parte8">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
     </div>
             <div class="col9">
             <img src="http://lorempixel.com/400/200/city" />
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-            <button>Details</button>
+            <div class="parte9">
+            <p id="parte9">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <button class="cinzinha3">Details</button>
         </div>
+            </div>
+
 </div>
-<div >
+<br/><br/>
+
+
+
+
+
+<div class="coluna--quarta">
     <img src="http://lorempixel.com/400/200" />
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-    <h2>Our Services</h2>
-    <button>Read More</button>
+    <div class="texto-longo">
+        <h4 class="titulo--quarta">One Big Column</h4>
+    <p id="informativo">
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    
+    <button class="readmore">Read More</button>
 </div>
+</div>
+</div>
+</br/>
+
+
+
+
 <div class="formulario">
-    <h3>Contact Form</h3>
-    <p>
+    <h3 class="contato">Contact Form</h3>
+    <div class="info">
+    <p class="extras">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
     </p>
+    </div>
+    <br/><br/>
     <form method="POST">
         <input type="text" id="nome" placeholder="Nome"/>
         <input type="text" id="email" placeholder="E-mail"/>
@@ -130,6 +169,8 @@
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
     
 </body>
+<br/><br/><br/>
+<hr/>
 <footer>
     Copyright by kkaori146
 </footer>
