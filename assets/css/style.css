@@ -2,12 +2,12 @@ body{
     margin-left: 291px;
     margin-right: 291px;
 }
-.btn-toolbar {
+.menu {
     padding: 20px 210px;
     background-color:rgb(56, 54, 54);
 }
 
-.btn-space{
+.menu .btn-light{
     margin-right: 20px;
     justify-content: center;
     background-color: rgb(56, 54, 54);
@@ -266,6 +266,74 @@ border: none;
    height: 100px;
    margin-top: -30px;
 }
+.info-pessoais {
+    margin-left: 250px;
+    float: left;
+}
+.info-extra {
+ 
+   padding-left: 450px;
+}
+.info-extra .comentario {
+    height: 100px;
+}
+footer {
+   padding-top: 0px;
+}
+@media (min-width: 600px) and (max-width: 1215px){
+    .menu {
+        padding: 20px 450px;
+}
+navbar {
+    display: flex;
+    margin-left: -280px;
+}
+.text-success,
+.text-danger,
+.text-primary {
+    color: green;
+    padding-top: 10px;
+    margin-left: 70px;
+    width: 201px;
+    margin-top: -4px;
+}
+.fundo4,
+.fundo5 {
+    background-color: rgb(173, 187, 193);
+    margin-left: 0px;
+    margin-right: 20px;
+    height: 100px;    
+   width: 400px;
+    margin-top: -20px;
+}
+.coluna--quarta .texto-longo {
+    background-color: rgb(173, 187, 193);
+    margin-left: 22px;
+    margin-right: 18px;
+   height: 180px;
+   width: 860px;
+    margin-top: -26px;
+}
+.contato {
+    margin-left: 320px;
+    font-size: 45px;
+    width: 150px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.info {
+    background-color: rgb(173, 187, 193);
+    margin-left: 100px;
+    margin-right: 100px;
+   height: 100px;
+   width: 580px;
+   margin-top: -30px;
+}
+hr {
+    width: 870px;
+}
+
+
+
 
 
 

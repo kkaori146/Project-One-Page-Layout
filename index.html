@@ -11,14 +11,16 @@
 </head>
 <body>
     <header>
-    <div class="btn-toolbar">
-        <button type="button" class="btn btn-primary btn-space">Homepage</button>
-        <button type="button" class="btn btn-primary  btn-space">About Us</button>
-        <button type="button" class="btn btn-primary  btn-space">Services</button>
-        <button type="button" class="btn btn-primary  btn-space">Contact</button>
-        <button type="button" class="btn btn-primary  btn-space">External</button>
+        <div class="menu">
+    <navbar class="navbar navbar-dark bg-dark">
+        <button type="button" class="btn btn-light">Homepage</button>
+        <button type="button" class="btn btn-light">About Us</button>
+        <button type="button" class="btn btn-light">Services</button>
+        <button type="button" class="btn btn-light">Contact</button>
+        <button type="button" class="btn btn-light">External</button>
 
-    </div>
+    </navbar>
+</div>
 </header>
 
     <div class="poster">
@@ -154,13 +156,20 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
     <br/><br/>
     <form method="POST">
-        <input type="text" id="nome" placeholder="Nome"/>
-        <input type="text" id="email" placeholder="E-mail"/>
-        <input type="text" id="subject" placeholder="Subject"/>
-        <textarea>
-            Your message here ...
-        </textarea>
-    </form>
+                <div class="info-pessoais">
+                <input type="text-name" placeholder="Name">
+           <br/><br/>
+                      
+                <input type="email" placeholder="Email">
+                <br/><br/>      
+                <input type="text" placeholder="Subject">
+            </div>
+           
+                  <div class="info-extra">
+                <textarea class="comentario">Your message here...</textarea>
+            </div>
+        
+         </form>
 </div>
 
 
@@ -169,7 +178,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
     
 </body>
-<br/><br/><br/>
+<br/><br/><br/><br/>
 <hr/>
 <footer>
     Copyright by kkaori146
